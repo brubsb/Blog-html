@@ -1,0 +1,31 @@
+h3{
+    color: #fbfbfbd7;
+    font-style: italic;
+}
+
+time{
+    font-style: italic;
+}
+
+h1 {
+    font-size: 36px;
+    text-shadow: 0 0 10px #c5a8ff;
+    animation: sombraAnimada 2s infinite alternate;
+}
+
+@keyframes sombraAnimada {
+    0% { text-shadow: 0 0 10px #3b006f; }
+    100% { text-shadow: 10px 10px 10px #313cb9; }
+}
+
+body {
+    background: linear-gradient(to bottom, #d5c7fe9a, #4a54c7b0);
+}
+
+p{
+    color: #36373a;
+}
+
+time{
+    color: #36373a;
+}
